@@ -85,7 +85,7 @@ function Header() {
     const currentHour = now.getHours();
 
     // Check if the current time is between 5 am and 10 pm
-    const isTimeInRange = currentHour >= 5 && currentHour < 10;
+    const isTimeInRange = currentHour >= 5 && currentHour < 11;
 
     setIsButtonEnabled(isTimeInRange);
   }, []);
